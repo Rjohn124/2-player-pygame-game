@@ -150,7 +150,7 @@ while running:
 
     collision = isCollision(player2X, player2Y, bulletX, bulletY)
     if collision:
-        explosionSound = mixer.Sound("muslim.wav")
+        explosionSound = mixer.Sound("explosion.wav")
         explosionSound.play()
         bulletY = 480
         bullet_state = "ready"
